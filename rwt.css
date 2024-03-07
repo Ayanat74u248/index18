@@ -1,0 +1,10 @@
+#block{
+    width: 300px;
+    height: 200px;
+    background-color: darkslategray;
+    color: darkgray;
+    box-shadow: 0px 3px 0px solid black;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 50px;
+}
