@@ -1,12 +1,16 @@
 #block{
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     background-color: darkslategray;
     color: darkgray;
     box-shadow: 0px 3px 0px solid black;
     margin: 10% auto;
     text-align: center;
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 header{
@@ -14,6 +18,7 @@ header{
     align-items: center;
     gap: 100px;
     background-color: brown;
+    padding: 10px;
 }
 
 header nav{
@@ -23,4 +28,30 @@ header nav{
 
 header a {
     color: white;
+}
+
+.ww{
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.rw{
+    margin: 10px auto;
+}
+
+footer{
+    display: flex;
+    background-color: darkturquoise;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+}
+
+footer nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+footer h4{
+    color: black;
 }
